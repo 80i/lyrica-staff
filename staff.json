@@ -1,12 +1,47 @@
 {
   "roles": [
-    {"id": "developer", "label": "lyrica.staff.role.developer", "color": "#FF5A36", "panel": true},
-    {"id": "staff", "label": "lyrica.staff.role.staff", "color": "#4FC3F7"},
-    {"id": "moderator", "label": "lyrica.staff.role.moderator", "color": "#7BD88F"}
+    {
+      "id": "developer",
+      "label": "Lyrica Dev",
+      "color": "#BAFF00",
+      "panel": true,
+      "style": {
+        "place": "CARD"
+      }
+    },
+    {
+      "id": "staff",
+      "label": "lyrica.staff.role.staff",
+      "color": "#4FC3F7",
+      "style": {
+        "place": "CARD"
+      }
+    },
+    {
+      "id": "moderator",
+      "label": "Lyrica Mod",
+      "color": "#FF5A36"
+    }
   ],
   "players": {
-    "479708ff-6807-4154-9a10-370070a3f0df": {"name": "6O2", "role": "developer", "title": "lyrica.staff.title.author"},
-    "fa4eb40d-831a-41a4-8852-89cabc25617a": {"name": "Philips", "role": "developer", "title": "lyrica.staff.title.author"},
-    "8d09332f-67b4-4994-b459-7e150e8f40c7": {"name": "GCC", "role": "developer", "title": "lyrica.staff.title.author"}
+    "479708ff-6807-4154-9a10-370070a3f0df": {
+      "name": "6O2",
+      "role": "developer",
+      "style": {
+        "place": "HIDDEN"
+      }
+    },
+    "fa4eb40d-831a-41a4-8852-89cabc25617a": {
+      "name": "Philips",
+      "role": "developer",
+      "showTitle": false,
+      "style": {
+        "size": 0.6
+      }
+    },
+    "8d09332f-67b4-4994-b459-7e150e8f40c7": {
+      "name": "GCC",
+      "role": "developer"
+    }
   }
 }
